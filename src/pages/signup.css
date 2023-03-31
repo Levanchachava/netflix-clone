@@ -1,0 +1,172 @@
+.signup-cont {
+    position: absolute;
+    top: 0;
+    z-index: -4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.signup-cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.signup-box {
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.744);
+}
+
+
+.signup-box-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.form-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-cont .inpeml, .inppsw {
+    width: 280px;
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    background-color: rgb(26, 26, 26);
+    border: none;
+    color: white;
+}
+
+.form-cont button {
+    width: 290px;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: rgb(255, 21, 21);
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.info-cont {
+    display: flex;
+    margin-top: 30px;
+}
+
+.info-cont input {
+    outline: none;
+    border: none;
+    margin-right: 2px;
+}
+
+.rememberme {
+    margin-right: 82px;
+    color: gray;
+    font-weight: 500;
+}
+
+.needhelp {
+    color: gray;
+    font-weight: 500;
+}
+
+.subscnetflix {
+    margin-top: 30px;
+    color: gray;
+    font-weight: 500;
+    margin-left: -20px;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    margin-left: -95px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 860px) {
+    .signup-box {
+        top: 15%;
+        left: 29%; 
+        width: 350px;
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .signup-box {
+        top: 15%;
+        left: 22%; 
+    }
+}
+@media only screen and (max-width: 520px) {
+    .signup-box {
+        top: 16%;
+        left: 8%; 
+        width: 320px;
+        height: 450px;
+    }
+    .form-cont .inpeml, .inppsw {
+        width: 230px;
+        margin-top: 10px;
+        height: 30px;
+    }
+
+    .form-cont button {
+        width: 239px;
+        margin-top: 20px;
+        height: 30px;
+    }
+
+    .info-cont input {
+        margin-left: 0px;
+        width: 10px;
+    }
+    .rememberme {
+        margin-right: 82px;
+        font-size: 12px;
+    }
+    
+    .needhelp {
+        font-size: 12px;
+    }
+    
+    .subscnetflix {
+        margin-top: 30px;
+        font-size: 14px;
+        margin-left: -1px;
+    }
+    
+    span a {
+        font-size: 14px;
+    }
+    
+     .login {
+        margin-left: -47px;
+        color: gray;
+        font-weight: 500;
+        margin-top: 30px;
+    } 
+    
+}

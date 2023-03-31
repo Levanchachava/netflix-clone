@@ -1,0 +1,25 @@
+.navbar-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.navbar-cont a {
+    text-decoration: none;
+}
+
+.navbar-cont h2 {
+    color: red;
+}
+
+
+.btn-cont button {
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+}
